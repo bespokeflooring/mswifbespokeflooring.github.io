@@ -1,0 +1,117 @@
+/* Add your custom CSS here */
+
+nav.theme-light,
+ nav.theme-light ul.links-wrapper.active { background-color: var(--brown-050) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { color: var(--black-000) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { border-color: var(--black-000) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light ul.links-wrapper li a:link,
+ nav.theme-light ul.links-wrapper li a:visited { color: var(--black-000) }
+ nav.theme-light ul.links-wrapper li a:focus,
+ nav.theme-light ul.links-wrapper li a:hover,
+ nav.theme-light ul.links-wrapper li a:active { color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { background-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { background-color: var(--brown-050) }
+
+
+ header.theme-dark h1 {font-family: "Merriweather", serif; color: var(--white-000) }
+ header.theme-dark h2 {font-family: "Merriweather", serif; color: var(--white-000) }
+ 
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: var(--brown-050);
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.fade-in {
+    max-width: 700px; /* Ensure the image doesn't exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0;
+    animation: fadeInEffect 3s forwards; /* Adjust the timing as needed */}
+
+@keyframes fadeInEffect {
+    to {
+        opacity: 1;
+    }
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display:round ;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: hwb(120 10% 90%);
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 25px
+}
+
+button:hover {
+    background-color:var(--brown-200);
+}
+
+
+.section-selector-1 { background-color: var(--brown-050) }
+.section-selector-1 h2 { color: var(--black-000) }
+.section-selector-1 .col-text p {font-family: "Merriweather", serif;font-weight: 400 ;font-size: 24px; line-height: 1.5; color: var(--black-000) }
+.section-selector-1 .col-text ul li {font-family: "Merriweather", serif;font-weight: 400 ;font-size: 24px; color: var(--black-000) }
+@media (min-width: 768px) { .section-selector-1 .col-2 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(188,170,164,0.9)); } }
+@media (max-width: 767px) { .section-selector-1 .col-2 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(188,170,164,0.9)); } }
+
+footer.theme-dark { background-color: var(--brown-100) }
+footer.theme-dark .copyright { background-color: var(--brown-100) }
+footer.theme-dark .copyright p { color: var(--black-000) }
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-links li a:focus,
+footer.theme-dark > ul.footer-links li a:hover,
+footer.theme-dark > ul.footer-links li a:active { color: var(--white-000) }
+
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { text-decoration-color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:focus i,
+footer.theme-dark > ul.footer-icons li a:hover i,
+footer.theme-dark > ul.footer-icons li a:active i { color: var(--white-000) }
+footer.theme-dark > h2 {  font-family: "Merriweather", serif; color: var(--black-000);}
+footer.theme-dark > h3 {  font-family: "Merriweather", serif;
+    font-size: var(--font-size-l);
+    color: var(--black-000); 
+    letter-spacing: 1px}
+
+

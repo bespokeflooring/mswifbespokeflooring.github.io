@@ -1,0 +1,102 @@
+/* Add your custom CSS here */
+nav.theme-light,
+ nav.theme-light ul.links-wrapper.active { background-color: var(--brown-050) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { color: var(--black-000) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { border-color: var(--black-000) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light ul.links-wrapper li a:link,
+ nav.theme-light ul.links-wrapper li a:visited { color: var(--black-000) }
+ nav.theme-light ul.links-wrapper li a:focus,
+ nav.theme-light ul.links-wrapper li a:hover,
+ nav.theme-light ul.links-wrapper li a:active { color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { background-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { background-color: var(--brown-050) }
+ 
+ 
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active a#btn-cta:focus,
+
+    nav.theme-light,
+    nav.theme-light ul.links-wrapper.active { background-color: var(--brown-050) }
+    nav.theme-light a#btn-cta:link,
+    nav.theme-light a#btn-cta:visited { color: var(--black-000) }
+    nav.theme-light a#btn-cta:link,
+    nav.theme-light a#btn-cta:visited { border-color: var(--black-000) }
+    nav.theme-light a#btn-cta:focus,
+    nav.theme-light a#btn-cta:hover,
+    nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+    nav.theme-light ul.links-wrapper.active a#btn-cta:hover,
+    nav.theme-light ul.links-wrapper.active a#btn-cta:active { border-color: var(--brown-500) } }.section-selector-1.theme-light { background-color: var(--brown-050) }
+    @media (min-width: 768px) { .section-selector-1 .col-4 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(161,136,127,0.9)); } }
+    @media (max-width: 767px) { .section-selector-1 .col-4 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(161,136,127,0.9)); } }
+
+
+
+
+
+    .section-selector-1 { background-color: var(--brown-050) }
+    
+    .section-selector-1 > h2 {font-family: "Merriweather", serif; color: var(--black-000) }
+    .section-selector-1 > p {font-weight: 400; font-family: "Merriweather", serif;color: var(--black-000); margin-top: 90px; font-size: 36px; }
+    
+
+
+    .section-selector-2.theme-light { background-color: var(--brown-050) }
+.section-selector-2 .col-4 p {font-family: "Merriweather", serif; color: var(--black-000) }
+.section-selector-2 .col-4 li {font-family: "Merriweather", serif; color: var(--black-000) }
+.section-selector-2.theme-light .col-4 { border-color: var(--black-000) }
+.section-selector-2 .cols-shadows .col-4 { box-shadow: rgba(188,170,164,0.9) 14px 14px 14px 0 }
+
+.section-selector-3 { background-color: var(--brown-050) }
+.section-selector-3 .container-btn a.btn:nth-child(1):link,
+.section-selector-3 .container-btn a.btn:nth-child(1):visited { color: var(--black-000) }
+
+.section-selector-3 .container-btn a.btn:nth-child(1):link,
+.section-selector-3 .container-btn a.btn:nth-child(1):visited { border-color: var(--black-000) }
+
+.section-selector-3 .container-btn a.btn:nth-child(1):focus,
+.section-selector-3 .container-btn a.btn:nth-child(1):hover,
+.section-selector-3 .container-btn a.btn:nth-child(1):active { color: var(--brown-300) }
+
+.section-selector-3 .container-btn a.btn:nth-child(1):focus,
+.section-selector-3 .container-btn a.btn:nth-child(1):hover,
+.section-selector-3 .container-btn a.btn:nth-child(1):active { background-color: var(--brown-050) }
+
+.section-selector-3 .container-btn a.btn:nth-child(1):focus,
+.section-selector-3 .container-btn a.btn:nth-child(1):hover,
+.section-selector-3 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--brown-300) }
+
+
+footer.theme-dark { background-color: var(--brown-100) }
+footer.theme-dark .copyright { background-color: var(--brown-100) }
+footer.theme-dark .copyright p { color: var(--black-000) }
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-links li a:focus,
+footer.theme-dark > ul.footer-links li a:hover,
+footer.theme-dark > ul.footer-links li a:active { color: var(--white-000) }
+
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { text-decoration-color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:focus i,
+footer.theme-dark > ul.footer-icons li a:hover i,
+footer.theme-dark > ul.footer-icons li a:active i { color: var(--white-000) }
+footer.theme-dark > h2 {  font-family: "Merriweather", serif; color: var(--black-000);}
+footer.theme-dark > h3 {  font-family: "Merriweather", serif;
+    font-size: var(--font-size-l);
+    color: var(--black-000); 
+    letter-spacing: 1px}
