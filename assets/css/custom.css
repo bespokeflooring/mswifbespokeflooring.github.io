@@ -1,0 +1,141 @@
+/* Add your custom CSS here */
+header h1 { font-size: var(--font-size-xxxl);
+    
+font-weight: 700; font-family: "Merriweather", serif;
+font-size: 28} 
+body {  font-family: "Merriweather", serif, cursive
+ }
+
+header h1 { font-family: "Merriweather", serif;
+            font-weight: 300;
+            margin-bottom: 16px;
+            margin-top: 14px;
+            font-size: var(--font-size-xl) 
+             }
+            :root {
+                --font-size-l: 20px; /* Set this to your desired size */
+            }
+            
+            header h2 {
+                padding: 4% 20%;
+                font-family: "Merriweather", serif;
+                font-size: var(--font-size-l)}
+
+header h1 { letter-spacing: -1px }
+header h2 { letter-spacing: 1px;
+ }
+ nav.theme-light,
+ nav.theme-light ul.links-wrapper.active { background-color: var(--brown-050) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { color: var(--black-000) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { border-color: var(--black-000) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light ul.links-wrapper li a:link,
+ nav.theme-light ul.links-wrapper li a:visited { color: var(--black-000) }
+ nav.theme-light ul.links-wrapper li a:focus,
+ nav.theme-light ul.links-wrapper li a:hover,
+ nav.theme-light ul.links-wrapper li a:active { color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:focus,
+ nav.theme-light a#btn-cta:hover,
+ nav.theme-light a#btn-cta:active { background-color: var(--brown-400) }
+ nav.theme-light a#btn-cta:link,
+ nav.theme-light a#btn-cta:visited { background-color: var(--brown-050) }
+ 
+ 
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active a#btn-cta:focus,
+
+    nav.theme-light,
+    nav.theme-light ul.links-wrapper.active { background-color: var(--brown-050) }
+    nav.theme-light a#btn-cta:link,
+    nav.theme-light a#btn-cta:visited { color: var(--black-000) }
+    nav.theme-light a#btn-cta:link,
+    nav.theme-light a#btn-cta:visited { border-color: var(--black-000) }
+    nav.theme-light a#btn-cta:focus,
+    nav.theme-light a#btn-cta:hover,
+    nav.theme-light a#btn-cta:active { border-color: var(--brown-400) }
+       
+nav.theme-light ul.links-wrapper.active a#btn-cta:hover,
+nav.theme-light ul.links-wrapper.active a#btn-cta:active { border-color: var(--brown-500) } }
+
+.section-selector-1.theme-light { background-color: var(--brown-050) }
+.section-selector-1 .col-1 h2.heading-underline::after {font-family: "Merriweather", serif; font-weight: 300; background-color: var(--black-000) }
+.section-selector-1 .col-1 h2 { color: var(--black-000); font-size:200 }
+.section-selector-1 .col-1 h2 {
+    font-family: "Merriweather", serif;
+  }
+  
+.section-selector-1 .col-1 h3 { color: var(--black-000) }
+.section-selector-1 .col-4 p { color: var(--black-000) }
+.section-selector-1 .col-4 li { color: var(--black-000) }
+.section-selector-1.theme-light .cols-shadows .col-4 { box-shadow: rgba(71, 67, 63, 0.886) 7px 7px 7px 0px}
+@media (min-width: 768px) { .section-selector-1 .col-4 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(65, 59, 54, 0.9)); } }
+@media (max-width: 767px) { .section-selector-1 .col-4 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(75, 69, 65, 0.927)); } }
+
+
+.section-selector-1 .col-2 .col-2-h3{ font-family: "Merriweather", serif;  }
+
+footer.theme-dark { background-color: var(--brown-100) }
+footer.theme-dark .copyright { background-color: var(--brown-100) }
+footer.theme-dark .copyright p { color: var(--black-000) }
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-links li a:focus,
+footer.theme-dark > ul.footer-links li a:hover,
+footer.theme-dark > ul.footer-links li a:active { color: var(--white-000) }
+
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { text-decoration-color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--black-000) }
+
+footer.theme-dark > ul.footer-icons li a:focus i,
+footer.theme-dark > ul.footer-icons li a:hover i,
+footer.theme-dark > ul.footer-icons li a:active i { color: var(--white-000) }
+footer.theme-dark > h2 {  font-family: "Merriweather", serif;  color: var(--black-000) }
+footer.theme-dark > h3 {color: var(--black-000); font-family: "Merriweather", serif;
+    font-size: var(--font-size-l);
+     letter-spacing: 1px}
+
+
+   
+        header.theme-dark .container-btn a.btn:nth-child(1):link,
+        header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+        
+        header.theme-dark .container-btn a.btn:nth-child(1):link,
+        header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--brow-400) }
+        
+        header.theme-dark .container-btn a.btn:nth-child(1):link,
+        header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--white-000) }
+        
+        header.theme-dark .container-btn a.btn:nth-child(1):focus,
+        header.theme-dark .container-btn a.btn:nth-child(1):hover,
+        header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--black-000) }
+        
+        header.theme-dark .container-btn a.btn:nth-child(1):focus,
+        header.theme-dark .container-btn a.btn:nth-child(1):hover,
+        header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--black-000) }
+        
+        header.theme-dark .container-btn a.btn:nth-child(1):focus,
+        header.theme-dark .container-btn a.btn:nth-child(1):hover,
+        header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--brown-300) }
+        
+        header.theme-dark .container-text .text-shadow > h2 {font-family: "Merriweather", serif;}
+
+    
+
+
+    
+    
+
+
+
+
+
